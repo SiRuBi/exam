@@ -16,7 +16,7 @@ int main(void){
 				sum=sum+i;
 				}
 				
-				printf("1+100=%d\n",sum);
+				printf("1+100=%d (%d)\n",sum,getpid());
 
 				exit(EXIT_SUCCESS);
 				}
